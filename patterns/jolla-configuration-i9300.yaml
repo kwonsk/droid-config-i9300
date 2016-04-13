@@ -1,0 +1,14 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for i9300 configurations
+Name: jolla-configuration-i9300
+Requires:
+- pattern:jolla-hw-adaptation-i9300
+- pattern:jolla-sailfish-applications
+- pattern:jolla-ui-wayland
+# Early stages of porting benefit from these:
+- pattern:sailfish-porter-tools
+
+Summary: Jolla Configuration i9300
+
